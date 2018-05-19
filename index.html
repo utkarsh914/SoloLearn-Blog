@@ -6,125 +6,85 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-
 	<style>
-
-		body {
-		    font-family: 'Handlee', cursive;
+		body {font-family: 'Handlee', cursive;
     		font-size: 14pt;
 		    background-color: #dddddd;
 		    padding: 10px;
-		    margin: 0;
-				}
-
-		h1 {
-			font-weight: bold;
-			text-align: center;
-		}
-
-		h1 span {
-			border: 5px dashed slateblue ;
+		    margin: 0;}
+		h1 {font-weight: bold;
+			text-align: center;}
+		h1 span {border: 5px dashed slateblue ;
 			padding: 8px;
-			background-color: #ffffef;
-		}
-
-		#header{
-			background-image: url("img/material_purple.jpg");
-			background-size: cover;
-				}
-
-		#header img{
-			display: block;
-			width: 80px;
-    		height: 80px;
-    		margin: auto;
-				}
-
-		#header p {
-		    font-size: 25pt;
+			background-color: #ffffef;}
+		#header{background-image: url("img/material_purple.jpg");
+			background-size: cover;}
+		#header img{display: block;
+			width: 150px;
+    		height: 150px;
+    		margin: auto;}
+		#header p {font-size: 25pt;
     		color: #efefef;
     		padding-top: 5px;
 		    margin: 0;
 		    font-weight: bold;
-		    text-align: center;
-				}
-
-		.img-circle {
-			border: 3px solid white;
-    		border-radius: 50%;
-				}
-
-		.section {
-			border-radius: 10px;
+		    text-align: center;}
+		.img-circle {border: 3px solid white;
+    		border-radius: 50%;}
+		.section {border-radius: 10px;
 			background-color: #fff;
     		padding: 15px;
-		    margin-bottom: 10px;
-				}
-
-		.specialcell {
-			background-color: tomato;
-			color: white;
-		}
-
-		p, q, blockquote {
-			font-size: 24px;
-				}
-
-		table {
-			border: 3px solid gray;
+		    margin-bottom: 10px;}
+		.specialcell {background-color: tomato;
+			color: white;}
+		p, q, blockquote {font-size: 24px;}
+		table {border: 3px solid gray;
 			border-collapse: collapse;
 			text-align: center;
 			width: 90%;
 			padding: auto;
 			margin: auto;
 			font-size: 24px;
-			font-weight: bold;
-		}
-
-		th, td {
-			border: 3px solid gray;
+			font-weight: bold;}
+		th, td {border: 3px solid gray;
 			border-collapse: collapse;
 			text-align: center;
-			
 			align-self: center;
 			padding: auto;
-			margin: auto;
-		}
-
-		th {
-			background-color: #dddddd;
-		}
-
-		progress {
-			width: 80%;
+			margin: auto;}
+		th {background-color: #dddddd;}
+		progress {width: 80%;
 			height: 20px;
 			color: #3fb6b2;
-			background-color: #efefef;
-		}
-
+			background-color: #efefef;}
 		progress::-webkit-progress-bar {
-    		background: #efefef;
-		}
-		progress::-webkit-progress-value {
-   			background: #3fb6b2;
-		} 
-		progress::-moz-progress-bar {
-		    color: #3fb6b2;
-		    background: #efefef;
-
+    		background: #efefef;}
+		progress::-webkit-progress-value {background: #3fb6b2;}
+		progress::-moz-progress-bar {color: #3fb6b2;
+		    background: #efefef;}
+		form {font-size: 17pt;
+			text-align: center;}
+		.button {background-color: slateblue;
+			color: white;
+			font-size: 110%;
+			text-decoration: none;
+			border-radius: 4px;
+			padding: 5px 20px;
+			font-family: 'Handlee', cursive;
+			display: inline-block;
+			margin: 8px;}
 	</style>
 </head>
-
 <body>
-
 	<div class="section" id="header">
-		<img alt="" class="img-circle" src="https://code.sololearn.com/Icons/Avatars/0.jpg">
+		<img alt="avatar" class="img-circle" src="img/avatar.jpg">
 		<p>Utkarsh Tiwari</p>
 	</div>
 
 	<div class="section">
 		<h1><span>Know About Me</span></h1>
-		<p>Hey! I'm Utkarsh. Coding has changed my world. It's not just about apps. Learning to code gave me problem-solving skills and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to get a better job. And I learned it all at SoloLearn where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!</p>
+		<p>Hey! I'm Utkarsh. Coding has changed my world. It's not just about apps. Learning to code gave me problem-solving skills and a way to communicate with others.<br>
+			I can also develop websites and use my coding skills to get a better job. And I learned it all at SoloLearn where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!</p>
 		<blockquote style="text-align:right;"> -declare variables, not wars</blockquote>
 	</div>
 
@@ -186,17 +146,38 @@
 		<h1><span>My Skills</span></h1>
 		<ul>
 			<li>HTML/CSS <br>
-				<progress value="90" max="100">
+				<progress value="25" max="100">
 			</li>
 			<li>Ruby on Rails <br>
-				<progress value="60" max="100">
+				<progress value="10" max="100">
 			</li>
 			<li>Python <br>
-				<progress value="85" max="100">
+				<progress value="25" max="100">
 			</li>
 		</ul>
-
 	</div>
-
+	<div class="section">
+		<h1><span>Contact Me</span></h1>
+		<form>
+			<fieldset align="center">
+				<legend align="center">Provide some Info</legend>
+				<b>Full Name:</b> <br>
+				<input type="text" name="name" required><br>
+				<b>Gender:</b> <br>
+				Male
+				<input type="radio" name="gender">
+				Female
+				<input type="radio" name="gender">
+				Other
+				<input type="radio" name="gender"><br>
+				<b>Message:</b><br>
+				<textarea cols="50" rows="10" required></textarea><br>
+				<input class="button" type="submit" name="submit" value="Submit">
+				<input class="button" type="reset" name="reset" value="Reset">
+				<br>
+				<p>
+			</fieldset>
+		</form>
+	</div>
 </body>
 </html>
